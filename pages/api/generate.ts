@@ -106,5 +106,3 @@ export default async function handler(
     .status(200)
     .json(restoredImage ? restoredImage : "Failed to restore image");
 }
-
-export const runtime = "edge";
